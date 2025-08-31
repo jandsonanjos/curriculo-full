@@ -1,8 +1,8 @@
- body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
     }
 
     .container {
@@ -64,15 +64,27 @@
     }
 
     .contact {
-      margin-top: 2em;
+      flex-direction: column;
+      margin-top: 1em;
       white-space: 2em;
       display:inline-flex;
       text-align: center;
     }
 
     .links {
+      border-radius: 4%;
+      transition: background 0.3s;
       color: #fffefe;
       background-color: #5b5757;
       border-color: #f4f4f4;
-      box-shadow: #5b5757 50 60 70 85;
+      box-shadow: #5b5757 30 30 30 30;
+    }
+
+    .links:hover {
+      background-color: rgba(236, 178, 3, 0.983);
+    }
+    .titulo {
+      display: flex;
+      flex-direction: column-reverse;
+      
     }
