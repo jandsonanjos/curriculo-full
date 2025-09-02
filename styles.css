@@ -42,7 +42,7 @@ body {
     }
 
     a {
-      color: #007BFF;
+      color: #0e0e0e;
       text-decoration: none;
     }
 
@@ -74,10 +74,10 @@ body {
     .links {
       border-radius: 4%;
       transition: background 0.3s;
-      color: #fffefe;
-      background-color: #5b5757;
+      color:#333 black;
       border-color: #f4f4f4;
-      box-shadow: #5b5757 30 30 30 30;
+      display: flex;
+      
     }
 
     .links:hover {
